@@ -17,6 +17,10 @@ var sound12 = document.getElementsByTagName("audio")[12];
 var sound13 = document.getElementsByTagName("audio")[13];
 var sound14 = document.getElementsByTagName("audio")[14];
 var sound15 = document.getElementsByTagName("audio")[15];
+var sound16 = document.getElementsByTagName("audio")[16];
+var sound17 = document.getElementsByTagName("audio")[17];
+var sound18 = document.getElementsByTagName("audio")[18];
+
 
 
 $('.sound0').on("click", function() {
@@ -97,4 +101,19 @@ $('.sound14').on("click", function() {
 $('.sound15').on("click", function() {
   sound15.load();
   sound15.play();
+});
+
+$('.sound16').on("click", function() {
+  sound16.load();
+  sound16.play();
+});
+
+$('.sound17').on("click", function() {
+  sound17.load();
+  sound17.play();
+});
+
+$('.sound18').on("click", function() {
+  sound18.load();
+  sound18.play();
 });
